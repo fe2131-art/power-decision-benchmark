@@ -1,0 +1,9 @@
+[project]
+name = "power-decision-benchmark"
+version = "0.3.0"
+description = "Synthetic power equipment inspection record benchmark for generation, decision APIs and local decision models"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["benchmark"]

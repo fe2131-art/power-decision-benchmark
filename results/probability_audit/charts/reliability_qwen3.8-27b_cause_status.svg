@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-label="Calibration: qwen3.8-27b — cause_status">
+<rect width="720" height="510" fill="white"/>
+<text x="50" y="34" font-size="21" font-family="sans-serif" fill="#111827">Calibration: qwen3.8-27b — cause_status</text>
+<text x="50" y="56" font-size="13" font-family="sans-serif" fill="#596273">P(selected label) vs observed correct rate; 10 bins, test split</text>
+<rect x="86" y="75" width="365" height="365" fill="#f8fafc" stroke="#cbd5e1"/>
+<line x1="86.0" x2="86.0" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="440.0" y2="440.0" stroke="#e5e7eb"/>
+<text x="86.0" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.00</text>
+<text x="71" y="444.0" text-anchor="end" font-size="13" font-family="sans-serif">0.00</text>
+<line x1="177.2" x2="177.2" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="348.8" y2="348.8" stroke="#e5e7eb"/>
+<text x="177.2" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.25</text>
+<text x="71" y="352.8" text-anchor="end" font-size="13" font-family="sans-serif">0.25</text>
+<line x1="268.5" x2="268.5" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="257.5" y2="257.5" stroke="#e5e7eb"/>
+<text x="268.5" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.50</text>
+<text x="71" y="261.5" text-anchor="end" font-size="13" font-family="sans-serif">0.50</text>
+<line x1="359.8" x2="359.8" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="166.2" y2="166.2" stroke="#e5e7eb"/>
+<text x="359.8" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.75</text>
+<text x="71" y="170.2" text-anchor="end" font-size="13" font-family="sans-serif">0.75</text>
+<line x1="451.0" x2="451.0" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="75.0" y2="75.0" stroke="#e5e7eb"/>
+<text x="451.0" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">1.00</text>
+<text x="71" y="79.0" text-anchor="end" font-size="13" font-family="sans-serif">1.00</text>
+<text x="268.5" y="493" text-anchor="middle" font-size="14" font-family="sans-serif">Mean selected probability</text>
+<text x="25" y="257.5" text-anchor="middle" font-size="14" font-family="sans-serif" transform="rotate(-90 25 257.5)">Observed accuracy</text>
+<line x1="86" y1="440" x2="451" y2="75" stroke="#94a3b8" stroke-width="1.8" stroke-dasharray="6 5"/>
+<circle cx="304.8" cy="440.0" r="3.3" fill="#2563eb" fill-opacity=".75"><title>n=1; predicted=0.600; observed=0.000</title></circle>
+<circle cx="400.4" cy="75.0" r="3.5" fill="#2563eb" fill-opacity=".75"><title>n=2; predicted=0.861; observed=1.000</title></circle>
+<circle cx="450.5" cy="76.1" r="9.2" fill="#2563eb" fill-opacity=".75"><title>n=347; predicted=0.999; observed=0.997</title></circle>
+<polyline points="304.8,440.0 400.4,75.0 450.5,76.1" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+<text x="485" y="120" font-family="sans-serif" font-size="14">Valid bins: 3</text>
+<text x="485" y="145" font-family="sans-serif" font-size="12" fill="#475569">Dashed = ideal calibration</text>
+</svg>

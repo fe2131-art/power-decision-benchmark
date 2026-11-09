@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-label="Selective risk / coverage: clef-flash">
+<rect width="720" height="510" fill="white"/>
+<text x="50" y="34" font-size="21" font-family="sans-serif" fill="#111827">Selective risk / coverage: clef-flash</text>
+<text x="50" y="56" font-size="13" font-family="sans-serif" fill="#596273">Threshold sweep on test split (no threshold tuning on test)</text>
+<rect x="86" y="75" width="365" height="365" fill="#f8fafc" stroke="#cbd5e1"/>
+<line x1="86.0" x2="86.0" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="440.0" y2="440.0" stroke="#e5e7eb"/>
+<text x="86.0" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.00</text>
+<text x="71" y="444.0" text-anchor="end" font-size="13" font-family="sans-serif">0.00</text>
+<line x1="177.2" x2="177.2" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="348.8" y2="348.8" stroke="#e5e7eb"/>
+<text x="177.2" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.25</text>
+<text x="71" y="352.8" text-anchor="end" font-size="13" font-family="sans-serif">0.25</text>
+<line x1="268.5" x2="268.5" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="257.5" y2="257.5" stroke="#e5e7eb"/>
+<text x="268.5" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.50</text>
+<text x="71" y="261.5" text-anchor="end" font-size="13" font-family="sans-serif">0.50</text>
+<line x1="359.8" x2="359.8" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="166.2" y2="166.2" stroke="#e5e7eb"/>
+<text x="359.8" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.75</text>
+<text x="71" y="170.2" text-anchor="end" font-size="13" font-family="sans-serif">0.75</text>
+<line x1="451.0" x2="451.0" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="75.0" y2="75.0" stroke="#e5e7eb"/>
+<text x="451.0" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">1.00</text>
+<text x="71" y="79.0" text-anchor="end" font-size="13" font-family="sans-serif">1.00</text>
+<text x="268.5" y="493" text-anchor="middle" font-size="14" font-family="sans-serif">Coverage (all planned cases)</text>
+<text x="25" y="257.5" text-anchor="middle" font-size="14" font-family="sans-serif" transform="rotate(-90 25 257.5)">Error rate among accepted cases</text>
+<polyline points="92.3,440.0 150.7,440.0 198.6,440.0 243.5,437.6 284.1,434.2 322.7,435.2 384.3,434.9 419.7,432.0 447.9,425.3 451.0,423.3" stroke="#0f766e" stroke-width="2.5" fill="none"/>
+<circle cx="92.3" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.950; coverage=0.017; risk=0.000; accepted=6</title></circle>
+<circle cx="150.7" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.900; coverage=0.177; risk=0.000; accepted=62</title></circle>
+<circle cx="198.6" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.850; coverage=0.309; risk=0.000; accepted=108</title></circle>
+<circle cx="243.5" cy="437.6" r="4.2" fill="#0f766e"><title>tau=0.800; coverage=0.431; risk=0.007; accepted=151</title></circle>
+<circle cx="284.1" cy="434.2" r="4.2" fill="#0f766e"><title>tau=0.750; coverage=0.543; risk=0.016; accepted=190</title></circle>
+<circle cx="322.7" cy="435.2" r="4.2" fill="#0f766e"><title>tau=0.700; coverage=0.649; risk=0.013; accepted=227</title></circle>
+<circle cx="384.3" cy="434.9" r="4.2" fill="#0f766e"><title>tau=0.600; coverage=0.817; risk=0.014; accepted=286</title></circle>
+<circle cx="419.7" cy="432.0" r="4.2" fill="#0f766e"><title>tau=0.500; coverage=0.914; risk=0.022; accepted=320</title></circle>
+<circle cx="447.9" cy="425.3" r="4.2" fill="#0f766e"><title>tau=0.333; coverage=0.991; risk=0.040; accepted=347</title></circle>
+<circle cx="451.0" cy="423.3" r="4.2" fill="#0f766e"><title>tau=0.000; coverage=1.000; risk=0.046; accepted=350</title></circle>
+<text x="485" y="120" font-family="sans-serif" font-size="12" fill="#475569">Empirical risk, not a</text>
+<text x="485" y="139" font-family="sans-serif" font-size="12" fill="#475569">production safety guarantee</text>
+</svg>

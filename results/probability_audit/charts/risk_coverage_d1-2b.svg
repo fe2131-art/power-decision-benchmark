@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-label="Selective risk / coverage: d1-2b">
+<rect width="720" height="510" fill="white"/>
+<text x="50" y="34" font-size="21" font-family="sans-serif" fill="#111827">Selective risk / coverage: d1-2b</text>
+<text x="50" y="56" font-size="13" font-family="sans-serif" fill="#596273">Threshold sweep on test split (no threshold tuning on test)</text>
+<rect x="86" y="75" width="365" height="365" fill="#f8fafc" stroke="#cbd5e1"/>
+<line x1="86.0" x2="86.0" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="440.0" y2="440.0" stroke="#e5e7eb"/>
+<text x="86.0" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.00</text>
+<text x="71" y="444.0" text-anchor="end" font-size="13" font-family="sans-serif">0.00</text>
+<line x1="177.2" x2="177.2" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="348.8" y2="348.8" stroke="#e5e7eb"/>
+<text x="177.2" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.25</text>
+<text x="71" y="352.8" text-anchor="end" font-size="13" font-family="sans-serif">0.25</text>
+<line x1="268.5" x2="268.5" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="257.5" y2="257.5" stroke="#e5e7eb"/>
+<text x="268.5" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.50</text>
+<text x="71" y="261.5" text-anchor="end" font-size="13" font-family="sans-serif">0.50</text>
+<line x1="359.8" x2="359.8" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="166.2" y2="166.2" stroke="#e5e7eb"/>
+<text x="359.8" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">0.75</text>
+<text x="71" y="170.2" text-anchor="end" font-size="13" font-family="sans-serif">0.75</text>
+<line x1="451.0" x2="451.0" y1="75" y2="440" stroke="#e5e7eb"/>
+<line x1="86" x2="451" y1="75.0" y2="75.0" stroke="#e5e7eb"/>
+<text x="451.0" y="462" text-anchor="middle" font-size="13" font-family="sans-serif">1.00</text>
+<text x="71" y="79.0" text-anchor="end" font-size="13" font-family="sans-serif">1.00</text>
+<text x="268.5" y="493" text-anchor="middle" font-size="14" font-family="sans-serif">Coverage (all planned cases)</text>
+<text x="25" y="257.5" text-anchor="middle" font-size="14" font-family="sans-serif" transform="rotate(-90 25 257.5)">Error rate among accepted cases</text>
+<polyline points="87.0,440.0 88.1,440.0 117.3,440.0 187.2,440.0 247.6,440.0 291.4,440.0 324.8,440.0 346.7,440.0 372.8,433.4 400.9,423.1 414.5,416.8 451.0,395.2" stroke="#0f766e" stroke-width="2.5" fill="none"/>
+<circle cx="87.0" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.990; coverage=0.003; risk=0.000; accepted=1</title></circle>
+<circle cx="88.1" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.980; coverage=0.006; risk=0.000; accepted=2</title></circle>
+<circle cx="117.3" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.950; coverage=0.086; risk=0.000; accepted=30</title></circle>
+<circle cx="187.2" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.900; coverage=0.277; risk=0.000; accepted=97</title></circle>
+<circle cx="247.6" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.850; coverage=0.443; risk=0.000; accepted=155</title></circle>
+<circle cx="291.4" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.800; coverage=0.563; risk=0.000; accepted=197</title></circle>
+<circle cx="324.8" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.750; coverage=0.654; risk=0.000; accepted=229</title></circle>
+<circle cx="346.7" cy="440.0" r="4.2" fill="#0f766e"><title>tau=0.700; coverage=0.714; risk=0.000; accepted=250</title></circle>
+<circle cx="372.8" cy="433.4" r="4.2" fill="#0f766e"><title>tau=0.600; coverage=0.786; risk=0.018; accepted=275</title></circle>
+<circle cx="400.9" cy="423.1" r="4.2" fill="#0f766e"><title>tau=0.525; coverage=0.863; risk=0.046; accepted=302</title></circle>
+<circle cx="414.5" cy="416.8" r="4.2" fill="#0f766e"><title>tau=0.500; coverage=0.900; risk=0.063; accepted=315</title></circle>
+<circle cx="451.0" cy="395.2" r="4.2" fill="#0f766e"><title>tau=0.000; coverage=1.000; risk=0.123; accepted=350</title></circle>
+<text x="485" y="120" font-family="sans-serif" font-size="12" fill="#475569">Empirical risk, not a</text>
+<text x="485" y="139" font-family="sans-serif" font-size="12" fill="#475569">production safety guarantee</text>
+</svg>

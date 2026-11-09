@@ -1,0 +1,29 @@
+# Secret material - do NOT commit real API keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Raw per-case predictions stay local (only aggregated summaries are published)
+results/raw/
+
+# LaTeX build products (the .tex and .pdf are kept)
+docs/paper/*.aux
+docs/paper/*.out
+docs/paper/*.log
+docs/paper/*.synctex.gz
+texput.log
+*.log
+.DS_Store
+.vscode/
+.idea/

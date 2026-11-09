@@ -1,0 +1,475 @@
+﻿id,group,difficulty,family_id,variant,equipment,observation,cause_status,rationale,gold_origin
+H-0463,causal,very_hard,authored.causal,hand_authored,transformer,other,unknown,同時に起きた事柄を自動的に原因と推論しない。,author_labelled_synthetic
+H-0003,correction,hard,transformer.heat,template_2,transformer,heat,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0001,cross_asset,hard,transformer.heat,template_0,transformer,heat,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0004,dense,hard,transformer.heat,template_3,transformer,heat,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0469,mixed,very_hard,authored.mixed,hand_authored,transformer,oil_leak,suspected,正常項目が複数あっても観測した油滴を採用。,author_labelled_synthetic
+H-0457,negation,very_hard,authored.negation,hand_authored,transformer,damage,confirmed,否定された熱・油漏れでなく外装損傷。,author_labelled_synthetic
+H-0409,resolved,hard,transformer.normal,normal_0,transformer,normal,unknown,過去の疑いは棄却され、対象設備は現時点で異常なし。,controlled_synthetic
+H-0433,retraction,very_hard,authored.retraction,hand_authored,transformer,heat,suspected,原因確定の記載は撤回。観測は発熱、原因は疑いにとどまる。,author_labelled_synthetic
+H-0451,scope,very_hard,authored.scope,hand_authored,other,other,unknown,設備と事象を特定できない。,author_labelled_synthetic
+H-0002,timeline,hard,transformer.heat,template_1,transformer,heat,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0464,causal,very_hard,authored.causal,hand_authored,breaker,operation_failure,suspected,仮説が文章にあるのでsuspected。,author_labelled_synthetic
+H-0007,correction,hard,transformer.heat,template_2,transformer,heat,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0005,cross_asset,hard,transformer.heat,template_0,transformer,heat,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0008,dense,hard,transformer.heat,template_3,transformer,heat,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0470,mixed,very_hard,authored.mixed,hand_authored,breaker,other,confirmed,音はoperation_failureではなくother。,author_labelled_synthetic
+H-0458,negation,very_hard,authored.negation,hand_authored,breaker,normal,unknown,古い申告は異常の観測ではない。,author_labelled_synthetic
+H-0411,resolved,hard,transformer.normal,normal_2,transformer,normal,unknown,現在の正常所見を、取り下げられた速報より優先する。,controlled_synthetic
+H-0434,retraction,very_hard,authored.retraction,hand_authored,breaker,operation_failure,unknown,動作不良は観測。別案件の原因確定情報は使用不可。,author_labelled_synthetic
+H-0452,scope,very_hard,authored.scope,hand_authored,transformer,other,suspected,異音はother、冷却装置でも主対象は変圧器。,author_labelled_synthetic
+H-0006,timeline,hard,transformer.heat,template_1,transformer,heat,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0465,causal,very_hard,authored.causal,hand_authored,switch,corrosion,unknown,雨の事実だけで雨水原因としない。,author_labelled_synthetic
+H-0011,correction,hard,transformer.heat,template_2,transformer,heat,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0009,cross_asset,hard,transformer.heat,template_0,transformer,heat,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0012,dense,hard,transformer.heat,template_3,transformer,heat,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0471,mixed,very_hard,authored.mixed,hand_authored,switch,damage,unknown,現在実在する物理損傷に着目する。,author_labelled_synthetic
+H-0459,negation,very_hard,authored.negation,hand_authored,switch,heat,unknown,誤報の通信より実測の発熱を採用。,author_labelled_synthetic
+H-0413,resolved,hard,breaker.normal,normal_0,breaker,normal,unknown,過去の疑いは棄却され、対象設備は現時点で異常なし。,controlled_synthetic
+H-0435,retraction,very_hard,authored.retraction,hand_authored,meter,communication,suspected,現在の根拠は通信欠落と推定原因のみ。,author_labelled_synthetic
+H-0453,scope,very_hard,authored.scope,hand_authored,breaker,communication,unknown,遠隔信号の欠落はcommunication。原因不明。,author_labelled_synthetic
+H-0010,timeline,hard,transformer.heat,template_1,transformer,heat,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0466,causal,very_hard,authored.causal,hand_authored,overhead_line,damage,suspected,枝の存在と原因確定は異なる。,author_labelled_synthetic
+H-0015,correction,hard,transformer.oil_leak,template_2,transformer,oil_leak,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0013,cross_asset,hard,transformer.oil_leak,template_0,transformer,oil_leak,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0016,dense,hard,transformer.oil_leak,template_3,transformer,oil_leak,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0472,mixed,very_hard,authored.mixed,hand_authored,overhead_line,normal,unknown,アラームを事実と誤認しない。,author_labelled_synthetic
+H-0460,negation,very_hard,authored.negation,hand_authored,overhead_line,corrosion,suspected,正常な電線と腐食した支持金具を区別。,author_labelled_synthetic
+H-0415,resolved,hard,breaker.normal,normal_2,breaker,normal,unknown,現在の正常所見を、取り下げられた速報より優先する。,controlled_synthetic
+H-0436,retraction,very_hard,authored.retraction,hand_authored,switch,corrosion,unknown,削除済み推定原因を再利用しない。,author_labelled_synthetic
+H-0454,scope,very_hard,authored.scope,hand_authored,switch,oil_leak,confirmed,油入型開閉器の漏油。,author_labelled_synthetic
+H-0014,timeline,hard,transformer.oil_leak,template_1,transformer,oil_leak,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0467,causal,very_hard,authored.causal,hand_authored,meter,communication,confirmed,再現性を根拠に原因確定と明記。,author_labelled_synthetic
+H-0019,correction,hard,transformer.oil_leak,template_2,transformer,oil_leak,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0017,cross_asset,hard,transformer.oil_leak,template_0,transformer,oil_leak,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0020,dense,hard,transformer.oil_leak,template_3,transformer,oil_leak,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0473,mixed,very_hard,authored.mixed,hand_authored,meter,corrosion,confirmed,通信・表示正常は錆の否定にならない。,author_labelled_synthetic
+H-0461,negation,very_hard,authored.negation,hand_authored,meter,heat,confirmed,他の系統が正常でも端子過熱はある。,author_labelled_synthetic
+H-0417,resolved,hard,switch.normal,normal_0,switch,normal,unknown,過去の疑いは棄却され、対象設備は現時点で異常なし。,controlled_synthetic
+H-0437,retraction,very_hard,authored.retraction,hand_authored,overhead_line,damage,confirmed,旧説は撤回、別の確定原因が最新記録にある。,author_labelled_synthetic
+H-0455,scope,very_hard,authored.scope,hand_authored,overhead_line,other,unknown,音の事象はother。未観測の損傷を捏造しない。,author_labelled_synthetic
+H-0018,timeline,hard,transformer.oil_leak,template_1,transformer,oil_leak,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0468,causal,very_hard,authored.causal,hand_authored,other,heat,unknown,同時相関から故障原因を断定しない。,author_labelled_synthetic
+H-0023,correction,hard,transformer.oil_leak,template_2,transformer,oil_leak,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0021,cross_asset,hard,transformer.oil_leak,template_0,transformer,oil_leak,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0024,dense,hard,transformer.oil_leak,template_3,transformer,oil_leak,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0474,mixed,very_hard,authored.mixed,hand_authored,other,operation_failure,suspected,別系統正常でも起動不能は観測。,author_labelled_synthetic
+H-0462,negation,very_hard,authored.negation,hand_authored,other,normal,unknown,設備番号の取違えであり対象は正常。,author_labelled_synthetic
+H-0419,resolved,hard,switch.normal,normal_2,switch,normal,unknown,現在の正常所見を、取り下げられた速報より優先する。,controlled_synthetic
+H-0438,retraction,very_hard,authored.retraction,hand_authored,other,other,suspected,異音は選択肢のother、原因は未確定。,author_labelled_synthetic
+H-0456,scope,very_hard,authored.scope,hand_authored,meter,normal,unknown,異常は計器自体になく、主対象は正常。,author_labelled_synthetic
+H-0022,timeline,hard,transformer.oil_leak,template_1,transformer,oil_leak,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0027,correction,hard,transformer.operation_failure,template_2,transformer,operation_failure,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0025,cross_asset,hard,transformer.operation_failure,template_0,transformer,operation_failure,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0028,dense,hard,transformer.operation_failure,template_3,transformer,operation_failure,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0421,resolved,hard,overhead_line.normal,normal_0,overhead_line,normal,unknown,過去の疑いは棄却され、対象設備は現時点で異常なし。,controlled_synthetic
+H-0026,timeline,hard,transformer.operation_failure,template_1,transformer,operation_failure,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0031,correction,hard,transformer.operation_failure,template_2,transformer,operation_failure,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0029,cross_asset,hard,transformer.operation_failure,template_0,transformer,operation_failure,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0032,dense,hard,transformer.operation_failure,template_3,transformer,operation_failure,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0423,resolved,hard,overhead_line.normal,normal_2,overhead_line,normal,unknown,現在の正常所見を、取り下げられた速報より優先する。,controlled_synthetic
+H-0030,timeline,hard,transformer.operation_failure,template_1,transformer,operation_failure,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0035,correction,hard,transformer.operation_failure,template_2,transformer,operation_failure,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0033,cross_asset,hard,transformer.operation_failure,template_0,transformer,operation_failure,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0036,dense,hard,transformer.operation_failure,template_3,transformer,operation_failure,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0425,resolved,hard,meter.normal,normal_0,meter,normal,unknown,過去の疑いは棄却され、対象設備は現時点で異常なし。,controlled_synthetic
+H-0034,timeline,hard,transformer.operation_failure,template_1,transformer,operation_failure,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0039,correction,hard,transformer.corrosion,template_2,transformer,corrosion,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0037,cross_asset,hard,transformer.corrosion,template_0,transformer,corrosion,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0040,dense,hard,transformer.corrosion,template_3,transformer,corrosion,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0427,resolved,hard,meter.normal,normal_2,meter,normal,unknown,現在の正常所見を、取り下げられた速報より優先する。,controlled_synthetic
+H-0038,timeline,hard,transformer.corrosion,template_1,transformer,corrosion,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0043,correction,hard,transformer.corrosion,template_2,transformer,corrosion,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0041,cross_asset,hard,transformer.corrosion,template_0,transformer,corrosion,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0044,dense,hard,transformer.corrosion,template_3,transformer,corrosion,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0429,resolved,hard,other.normal,normal_0,other,normal,unknown,過去の疑いは棄却され、対象設備は現時点で異常なし。,controlled_synthetic
+H-0042,timeline,hard,transformer.corrosion,template_1,transformer,corrosion,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0047,correction,hard,transformer.corrosion,template_2,transformer,corrosion,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0045,cross_asset,hard,transformer.corrosion,template_0,transformer,corrosion,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0048,dense,hard,transformer.corrosion,template_3,transformer,corrosion,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0431,resolved,hard,other.normal,normal_2,other,normal,unknown,現在の正常所見を、取り下げられた速報より優先する。,controlled_synthetic
+H-0046,timeline,hard,transformer.corrosion,template_1,transformer,corrosion,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0051,correction,hard,transformer.damage,template_2,transformer,damage,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0049,cross_asset,hard,transformer.damage,template_0,transformer,damage,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0052,dense,hard,transformer.damage,template_3,transformer,damage,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0050,timeline,hard,transformer.damage,template_1,transformer,damage,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0055,correction,hard,transformer.damage,template_2,transformer,damage,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0053,cross_asset,hard,transformer.damage,template_0,transformer,damage,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0056,dense,hard,transformer.damage,template_3,transformer,damage,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0054,timeline,hard,transformer.damage,template_1,transformer,damage,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0059,correction,hard,transformer.damage,template_2,transformer,damage,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0057,cross_asset,hard,transformer.damage,template_0,transformer,damage,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0060,dense,hard,transformer.damage,template_3,transformer,damage,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0058,timeline,hard,transformer.damage,template_1,transformer,damage,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0063,correction,hard,transformer.other,template_2,transformer,other,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0061,cross_asset,hard,transformer.other,template_0,transformer,other,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0064,dense,hard,transformer.other,template_3,transformer,other,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0062,timeline,hard,transformer.other,template_1,transformer,other,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0067,correction,hard,transformer.other,template_2,transformer,other,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0065,cross_asset,hard,transformer.other,template_0,transformer,other,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0068,dense,hard,transformer.other,template_3,transformer,other,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0066,timeline,hard,transformer.other,template_1,transformer,other,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0071,correction,hard,transformer.other,template_2,transformer,other,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0069,cross_asset,hard,transformer.other,template_0,transformer,other,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0072,dense,hard,transformer.other,template_3,transformer,other,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0070,timeline,hard,transformer.other,template_1,transformer,other,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0075,correction,hard,breaker.heat,template_2,breaker,heat,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0073,cross_asset,hard,breaker.heat,template_0,breaker,heat,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0076,dense,hard,breaker.heat,template_3,breaker,heat,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0074,timeline,hard,breaker.heat,template_1,breaker,heat,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0079,correction,hard,breaker.heat,template_2,breaker,heat,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0077,cross_asset,hard,breaker.heat,template_0,breaker,heat,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0080,dense,hard,breaker.heat,template_3,breaker,heat,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0078,timeline,hard,breaker.heat,template_1,breaker,heat,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0083,correction,hard,breaker.heat,template_2,breaker,heat,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0081,cross_asset,hard,breaker.heat,template_0,breaker,heat,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0084,dense,hard,breaker.heat,template_3,breaker,heat,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0082,timeline,hard,breaker.heat,template_1,breaker,heat,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0087,correction,hard,breaker.operation_failure,template_2,breaker,operation_failure,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0085,cross_asset,hard,breaker.operation_failure,template_0,breaker,operation_failure,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0088,dense,hard,breaker.operation_failure,template_3,breaker,operation_failure,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0086,timeline,hard,breaker.operation_failure,template_1,breaker,operation_failure,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0091,correction,hard,breaker.operation_failure,template_2,breaker,operation_failure,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0089,cross_asset,hard,breaker.operation_failure,template_0,breaker,operation_failure,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0092,dense,hard,breaker.operation_failure,template_3,breaker,operation_failure,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0090,timeline,hard,breaker.operation_failure,template_1,breaker,operation_failure,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0095,correction,hard,breaker.operation_failure,template_2,breaker,operation_failure,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0093,cross_asset,hard,breaker.operation_failure,template_0,breaker,operation_failure,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0096,dense,hard,breaker.operation_failure,template_3,breaker,operation_failure,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0094,timeline,hard,breaker.operation_failure,template_1,breaker,operation_failure,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0099,correction,hard,breaker.corrosion,template_2,breaker,corrosion,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0097,cross_asset,hard,breaker.corrosion,template_0,breaker,corrosion,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0100,dense,hard,breaker.corrosion,template_3,breaker,corrosion,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0098,timeline,hard,breaker.corrosion,template_1,breaker,corrosion,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0103,correction,hard,breaker.corrosion,template_2,breaker,corrosion,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0101,cross_asset,hard,breaker.corrosion,template_0,breaker,corrosion,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0104,dense,hard,breaker.corrosion,template_3,breaker,corrosion,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0102,timeline,hard,breaker.corrosion,template_1,breaker,corrosion,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0107,correction,hard,breaker.corrosion,template_2,breaker,corrosion,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0105,cross_asset,hard,breaker.corrosion,template_0,breaker,corrosion,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0108,dense,hard,breaker.corrosion,template_3,breaker,corrosion,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0106,timeline,hard,breaker.corrosion,template_1,breaker,corrosion,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0111,correction,hard,breaker.damage,template_2,breaker,damage,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0109,cross_asset,hard,breaker.damage,template_0,breaker,damage,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0112,dense,hard,breaker.damage,template_3,breaker,damage,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0110,timeline,hard,breaker.damage,template_1,breaker,damage,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0115,correction,hard,breaker.damage,template_2,breaker,damage,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0113,cross_asset,hard,breaker.damage,template_0,breaker,damage,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0116,dense,hard,breaker.damage,template_3,breaker,damage,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0114,timeline,hard,breaker.damage,template_1,breaker,damage,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0119,correction,hard,breaker.damage,template_2,breaker,damage,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0117,cross_asset,hard,breaker.damage,template_0,breaker,damage,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0120,dense,hard,breaker.damage,template_3,breaker,damage,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0118,timeline,hard,breaker.damage,template_1,breaker,damage,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0123,correction,hard,breaker.communication,template_2,breaker,communication,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0121,cross_asset,hard,breaker.communication,template_0,breaker,communication,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0124,dense,hard,breaker.communication,template_3,breaker,communication,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0122,timeline,hard,breaker.communication,template_1,breaker,communication,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0127,correction,hard,breaker.communication,template_2,breaker,communication,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0125,cross_asset,hard,breaker.communication,template_0,breaker,communication,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0128,dense,hard,breaker.communication,template_3,breaker,communication,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0126,timeline,hard,breaker.communication,template_1,breaker,communication,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0131,correction,hard,breaker.communication,template_2,breaker,communication,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0129,cross_asset,hard,breaker.communication,template_0,breaker,communication,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0132,dense,hard,breaker.communication,template_3,breaker,communication,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0130,timeline,hard,breaker.communication,template_1,breaker,communication,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0135,correction,hard,breaker.other,template_2,breaker,other,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0133,cross_asset,hard,breaker.other,template_0,breaker,other,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0136,dense,hard,breaker.other,template_3,breaker,other,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0134,timeline,hard,breaker.other,template_1,breaker,other,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0139,correction,hard,breaker.other,template_2,breaker,other,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0137,cross_asset,hard,breaker.other,template_0,breaker,other,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0140,dense,hard,breaker.other,template_3,breaker,other,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0138,timeline,hard,breaker.other,template_1,breaker,other,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0143,correction,hard,breaker.other,template_2,breaker,other,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0141,cross_asset,hard,breaker.other,template_0,breaker,other,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0144,dense,hard,breaker.other,template_3,breaker,other,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0142,timeline,hard,breaker.other,template_1,breaker,other,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0147,correction,hard,switch.heat,template_2,switch,heat,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0145,cross_asset,hard,switch.heat,template_0,switch,heat,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0148,dense,hard,switch.heat,template_3,switch,heat,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0146,timeline,hard,switch.heat,template_1,switch,heat,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0151,correction,hard,switch.heat,template_2,switch,heat,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0149,cross_asset,hard,switch.heat,template_0,switch,heat,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0152,dense,hard,switch.heat,template_3,switch,heat,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0150,timeline,hard,switch.heat,template_1,switch,heat,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0155,correction,hard,switch.heat,template_2,switch,heat,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0153,cross_asset,hard,switch.heat,template_0,switch,heat,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0156,dense,hard,switch.heat,template_3,switch,heat,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0154,timeline,hard,switch.heat,template_1,switch,heat,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0159,correction,hard,switch.oil_leak,template_2,switch,oil_leak,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0157,cross_asset,hard,switch.oil_leak,template_0,switch,oil_leak,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0160,dense,hard,switch.oil_leak,template_3,switch,oil_leak,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0158,timeline,hard,switch.oil_leak,template_1,switch,oil_leak,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0163,correction,hard,switch.oil_leak,template_2,switch,oil_leak,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0161,cross_asset,hard,switch.oil_leak,template_0,switch,oil_leak,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0164,dense,hard,switch.oil_leak,template_3,switch,oil_leak,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0162,timeline,hard,switch.oil_leak,template_1,switch,oil_leak,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0167,correction,hard,switch.oil_leak,template_2,switch,oil_leak,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0165,cross_asset,hard,switch.oil_leak,template_0,switch,oil_leak,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0168,dense,hard,switch.oil_leak,template_3,switch,oil_leak,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0166,timeline,hard,switch.oil_leak,template_1,switch,oil_leak,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0171,correction,hard,switch.operation_failure,template_2,switch,operation_failure,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0169,cross_asset,hard,switch.operation_failure,template_0,switch,operation_failure,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0172,dense,hard,switch.operation_failure,template_3,switch,operation_failure,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0170,timeline,hard,switch.operation_failure,template_1,switch,operation_failure,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0175,correction,hard,switch.operation_failure,template_2,switch,operation_failure,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0173,cross_asset,hard,switch.operation_failure,template_0,switch,operation_failure,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0176,dense,hard,switch.operation_failure,template_3,switch,operation_failure,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0174,timeline,hard,switch.operation_failure,template_1,switch,operation_failure,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0179,correction,hard,switch.operation_failure,template_2,switch,operation_failure,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0177,cross_asset,hard,switch.operation_failure,template_0,switch,operation_failure,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0180,dense,hard,switch.operation_failure,template_3,switch,operation_failure,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0178,timeline,hard,switch.operation_failure,template_1,switch,operation_failure,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0183,correction,hard,switch.corrosion,template_2,switch,corrosion,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0181,cross_asset,hard,switch.corrosion,template_0,switch,corrosion,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0184,dense,hard,switch.corrosion,template_3,switch,corrosion,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0182,timeline,hard,switch.corrosion,template_1,switch,corrosion,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0187,correction,hard,switch.corrosion,template_2,switch,corrosion,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0185,cross_asset,hard,switch.corrosion,template_0,switch,corrosion,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0188,dense,hard,switch.corrosion,template_3,switch,corrosion,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0186,timeline,hard,switch.corrosion,template_1,switch,corrosion,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0191,correction,hard,switch.corrosion,template_2,switch,corrosion,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0189,cross_asset,hard,switch.corrosion,template_0,switch,corrosion,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0192,dense,hard,switch.corrosion,template_3,switch,corrosion,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0190,timeline,hard,switch.corrosion,template_1,switch,corrosion,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0195,correction,hard,switch.damage,template_2,switch,damage,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0193,cross_asset,hard,switch.damage,template_0,switch,damage,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0196,dense,hard,switch.damage,template_3,switch,damage,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0194,timeline,hard,switch.damage,template_1,switch,damage,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0199,correction,hard,switch.damage,template_2,switch,damage,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0197,cross_asset,hard,switch.damage,template_0,switch,damage,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0200,dense,hard,switch.damage,template_3,switch,damage,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0198,timeline,hard,switch.damage,template_1,switch,damage,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0203,correction,hard,switch.damage,template_2,switch,damage,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0201,cross_asset,hard,switch.damage,template_0,switch,damage,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0204,dense,hard,switch.damage,template_3,switch,damage,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0202,timeline,hard,switch.damage,template_1,switch,damage,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0207,correction,hard,switch.communication,template_2,switch,communication,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0205,cross_asset,hard,switch.communication,template_0,switch,communication,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0208,dense,hard,switch.communication,template_3,switch,communication,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0206,timeline,hard,switch.communication,template_1,switch,communication,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0211,correction,hard,switch.communication,template_2,switch,communication,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0209,cross_asset,hard,switch.communication,template_0,switch,communication,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0212,dense,hard,switch.communication,template_3,switch,communication,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0210,timeline,hard,switch.communication,template_1,switch,communication,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0215,correction,hard,switch.communication,template_2,switch,communication,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0213,cross_asset,hard,switch.communication,template_0,switch,communication,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0216,dense,hard,switch.communication,template_3,switch,communication,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0214,timeline,hard,switch.communication,template_1,switch,communication,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0219,correction,hard,switch.other,template_2,switch,other,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0217,cross_asset,hard,switch.other,template_0,switch,other,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0220,dense,hard,switch.other,template_3,switch,other,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0218,timeline,hard,switch.other,template_1,switch,other,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0223,correction,hard,switch.other,template_2,switch,other,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0221,cross_asset,hard,switch.other,template_0,switch,other,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0224,dense,hard,switch.other,template_3,switch,other,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0222,timeline,hard,switch.other,template_1,switch,other,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0227,correction,hard,switch.other,template_2,switch,other,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0225,cross_asset,hard,switch.other,template_0,switch,other,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0228,dense,hard,switch.other,template_3,switch,other,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0226,timeline,hard,switch.other,template_1,switch,other,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0231,correction,hard,overhead_line.heat,template_2,overhead_line,heat,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0229,cross_asset,hard,overhead_line.heat,template_0,overhead_line,heat,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0232,dense,hard,overhead_line.heat,template_3,overhead_line,heat,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0230,timeline,hard,overhead_line.heat,template_1,overhead_line,heat,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0235,correction,hard,overhead_line.heat,template_2,overhead_line,heat,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0233,cross_asset,hard,overhead_line.heat,template_0,overhead_line,heat,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0236,dense,hard,overhead_line.heat,template_3,overhead_line,heat,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0234,timeline,hard,overhead_line.heat,template_1,overhead_line,heat,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0239,correction,hard,overhead_line.heat,template_2,overhead_line,heat,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0237,cross_asset,hard,overhead_line.heat,template_0,overhead_line,heat,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0240,dense,hard,overhead_line.heat,template_3,overhead_line,heat,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0238,timeline,hard,overhead_line.heat,template_1,overhead_line,heat,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0243,correction,hard,overhead_line.corrosion,template_2,overhead_line,corrosion,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0241,cross_asset,hard,overhead_line.corrosion,template_0,overhead_line,corrosion,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0244,dense,hard,overhead_line.corrosion,template_3,overhead_line,corrosion,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0242,timeline,hard,overhead_line.corrosion,template_1,overhead_line,corrosion,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0247,correction,hard,overhead_line.corrosion,template_2,overhead_line,corrosion,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0245,cross_asset,hard,overhead_line.corrosion,template_0,overhead_line,corrosion,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0248,dense,hard,overhead_line.corrosion,template_3,overhead_line,corrosion,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0246,timeline,hard,overhead_line.corrosion,template_1,overhead_line,corrosion,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0251,correction,hard,overhead_line.corrosion,template_2,overhead_line,corrosion,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0249,cross_asset,hard,overhead_line.corrosion,template_0,overhead_line,corrosion,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0252,dense,hard,overhead_line.corrosion,template_3,overhead_line,corrosion,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0250,timeline,hard,overhead_line.corrosion,template_1,overhead_line,corrosion,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0255,correction,hard,overhead_line.damage,template_2,overhead_line,damage,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0253,cross_asset,hard,overhead_line.damage,template_0,overhead_line,damage,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0256,dense,hard,overhead_line.damage,template_3,overhead_line,damage,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0254,timeline,hard,overhead_line.damage,template_1,overhead_line,damage,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0259,correction,hard,overhead_line.damage,template_2,overhead_line,damage,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0257,cross_asset,hard,overhead_line.damage,template_0,overhead_line,damage,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0260,dense,hard,overhead_line.damage,template_3,overhead_line,damage,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0258,timeline,hard,overhead_line.damage,template_1,overhead_line,damage,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0263,correction,hard,overhead_line.damage,template_2,overhead_line,damage,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0261,cross_asset,hard,overhead_line.damage,template_0,overhead_line,damage,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0264,dense,hard,overhead_line.damage,template_3,overhead_line,damage,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0262,timeline,hard,overhead_line.damage,template_1,overhead_line,damage,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0267,correction,hard,overhead_line.other,template_2,overhead_line,other,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0265,cross_asset,hard,overhead_line.other,template_0,overhead_line,other,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0268,dense,hard,overhead_line.other,template_3,overhead_line,other,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0266,timeline,hard,overhead_line.other,template_1,overhead_line,other,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0271,correction,hard,overhead_line.other,template_2,overhead_line,other,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0269,cross_asset,hard,overhead_line.other,template_0,overhead_line,other,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0272,dense,hard,overhead_line.other,template_3,overhead_line,other,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0270,timeline,hard,overhead_line.other,template_1,overhead_line,other,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0275,correction,hard,overhead_line.other,template_2,overhead_line,other,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0273,cross_asset,hard,overhead_line.other,template_0,overhead_line,other,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0276,dense,hard,overhead_line.other,template_3,overhead_line,other,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0274,timeline,hard,overhead_line.other,template_1,overhead_line,other,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0279,correction,hard,meter.heat,template_2,meter,heat,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0277,cross_asset,hard,meter.heat,template_0,meter,heat,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0280,dense,hard,meter.heat,template_3,meter,heat,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0278,timeline,hard,meter.heat,template_1,meter,heat,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0283,correction,hard,meter.heat,template_2,meter,heat,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0281,cross_asset,hard,meter.heat,template_0,meter,heat,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0284,dense,hard,meter.heat,template_3,meter,heat,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0282,timeline,hard,meter.heat,template_1,meter,heat,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0287,correction,hard,meter.heat,template_2,meter,heat,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0285,cross_asset,hard,meter.heat,template_0,meter,heat,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0288,dense,hard,meter.heat,template_3,meter,heat,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0286,timeline,hard,meter.heat,template_1,meter,heat,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0291,correction,hard,meter.corrosion,template_2,meter,corrosion,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0289,cross_asset,hard,meter.corrosion,template_0,meter,corrosion,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0292,dense,hard,meter.corrosion,template_3,meter,corrosion,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0290,timeline,hard,meter.corrosion,template_1,meter,corrosion,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0295,correction,hard,meter.corrosion,template_2,meter,corrosion,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0293,cross_asset,hard,meter.corrosion,template_0,meter,corrosion,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0296,dense,hard,meter.corrosion,template_3,meter,corrosion,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0294,timeline,hard,meter.corrosion,template_1,meter,corrosion,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0299,correction,hard,meter.corrosion,template_2,meter,corrosion,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0297,cross_asset,hard,meter.corrosion,template_0,meter,corrosion,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0300,dense,hard,meter.corrosion,template_3,meter,corrosion,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0298,timeline,hard,meter.corrosion,template_1,meter,corrosion,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0303,correction,hard,meter.damage,template_2,meter,damage,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0301,cross_asset,hard,meter.damage,template_0,meter,damage,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0304,dense,hard,meter.damage,template_3,meter,damage,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0302,timeline,hard,meter.damage,template_1,meter,damage,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0307,correction,hard,meter.damage,template_2,meter,damage,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0305,cross_asset,hard,meter.damage,template_0,meter,damage,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0308,dense,hard,meter.damage,template_3,meter,damage,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0306,timeline,hard,meter.damage,template_1,meter,damage,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0311,correction,hard,meter.damage,template_2,meter,damage,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0309,cross_asset,hard,meter.damage,template_0,meter,damage,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0312,dense,hard,meter.damage,template_3,meter,damage,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0310,timeline,hard,meter.damage,template_1,meter,damage,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0315,correction,hard,meter.communication,template_2,meter,communication,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0313,cross_asset,hard,meter.communication,template_0,meter,communication,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0316,dense,hard,meter.communication,template_3,meter,communication,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0314,timeline,hard,meter.communication,template_1,meter,communication,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0319,correction,hard,meter.communication,template_2,meter,communication,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0317,cross_asset,hard,meter.communication,template_0,meter,communication,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0320,dense,hard,meter.communication,template_3,meter,communication,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0318,timeline,hard,meter.communication,template_1,meter,communication,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0323,correction,hard,meter.communication,template_2,meter,communication,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0321,cross_asset,hard,meter.communication,template_0,meter,communication,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0324,dense,hard,meter.communication,template_3,meter,communication,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0322,timeline,hard,meter.communication,template_1,meter,communication,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0327,correction,hard,meter.other,template_2,meter,other,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0325,cross_asset,hard,meter.other,template_0,meter,other,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0328,dense,hard,meter.other,template_3,meter,other,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0326,timeline,hard,meter.other,template_1,meter,other,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0331,correction,hard,meter.other,template_2,meter,other,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0329,cross_asset,hard,meter.other,template_0,meter,other,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0332,dense,hard,meter.other,template_3,meter,other,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0330,timeline,hard,meter.other,template_1,meter,other,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0335,correction,hard,meter.other,template_2,meter,other,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0333,cross_asset,hard,meter.other,template_0,meter,other,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0336,dense,hard,meter.other,template_3,meter,other,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0334,timeline,hard,meter.other,template_1,meter,other,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0339,correction,hard,other.heat,template_2,other,heat,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0337,cross_asset,hard,other.heat,template_0,other,heat,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0340,dense,hard,other.heat,template_3,other,heat,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0338,timeline,hard,other.heat,template_1,other,heat,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0343,correction,hard,other.heat,template_2,other,heat,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0341,cross_asset,hard,other.heat,template_0,other,heat,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0344,dense,hard,other.heat,template_3,other,heat,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0342,timeline,hard,other.heat,template_1,other,heat,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0347,correction,hard,other.heat,template_2,other,heat,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0345,cross_asset,hard,other.heat,template_0,other,heat,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0348,dense,hard,other.heat,template_3,other,heat,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0346,timeline,hard,other.heat,template_1,other,heat,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0351,correction,hard,other.operation_failure,template_2,other,operation_failure,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0349,cross_asset,hard,other.operation_failure,template_0,other,operation_failure,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0352,dense,hard,other.operation_failure,template_3,other,operation_failure,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0350,timeline,hard,other.operation_failure,template_1,other,operation_failure,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0355,correction,hard,other.operation_failure,template_2,other,operation_failure,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0353,cross_asset,hard,other.operation_failure,template_0,other,operation_failure,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0356,dense,hard,other.operation_failure,template_3,other,operation_failure,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0354,timeline,hard,other.operation_failure,template_1,other,operation_failure,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0359,correction,hard,other.operation_failure,template_2,other,operation_failure,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0357,cross_asset,hard,other.operation_failure,template_0,other,operation_failure,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0360,dense,hard,other.operation_failure,template_3,other,operation_failure,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0358,timeline,hard,other.operation_failure,template_1,other,operation_failure,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0363,correction,hard,other.corrosion,template_2,other,corrosion,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0361,cross_asset,hard,other.corrosion,template_0,other,corrosion,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0364,dense,hard,other.corrosion,template_3,other,corrosion,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0362,timeline,hard,other.corrosion,template_1,other,corrosion,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0367,correction,hard,other.corrosion,template_2,other,corrosion,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0365,cross_asset,hard,other.corrosion,template_0,other,corrosion,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0368,dense,hard,other.corrosion,template_3,other,corrosion,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0366,timeline,hard,other.corrosion,template_1,other,corrosion,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0371,correction,hard,other.corrosion,template_2,other,corrosion,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0369,cross_asset,hard,other.corrosion,template_0,other,corrosion,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0372,dense,hard,other.corrosion,template_3,other,corrosion,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0370,timeline,hard,other.corrosion,template_1,other,corrosion,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0375,correction,hard,other.damage,template_2,other,damage,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0373,cross_asset,hard,other.damage,template_0,other,damage,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0376,dense,hard,other.damage,template_3,other,damage,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0374,timeline,hard,other.damage,template_1,other,damage,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0379,correction,hard,other.damage,template_2,other,damage,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0377,cross_asset,hard,other.damage,template_0,other,damage,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0380,dense,hard,other.damage,template_3,other,damage,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0378,timeline,hard,other.damage,template_1,other,damage,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0383,correction,hard,other.damage,template_2,other,damage,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0381,cross_asset,hard,other.damage,template_0,other,damage,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0384,dense,hard,other.damage,template_3,other,damage,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0382,timeline,hard,other.damage,template_1,other,damage,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0387,correction,hard,other.communication,template_2,other,communication,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0385,cross_asset,hard,other.communication,template_0,other,communication,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0388,dense,hard,other.communication,template_3,other,communication,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0386,timeline,hard,other.communication,template_1,other,communication,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0391,correction,hard,other.communication,template_2,other,communication,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0389,cross_asset,hard,other.communication,template_0,other,communication,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0392,dense,hard,other.communication,template_3,other,communication,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0390,timeline,hard,other.communication,template_1,other,communication,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0395,correction,hard,other.communication,template_2,other,communication,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0393,cross_asset,hard,other.communication,template_0,other,communication,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0396,dense,hard,other.communication,template_3,other,communication,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0394,timeline,hard,other.communication,template_1,other,communication,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0399,correction,hard,other.other,template_2,other,other,confirmed,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が確定。,controlled_synthetic
+H-0397,cross_asset,hard,other.other,template_0,other,other,confirmed,対象機と別設備の未確認・否定された事象を分ける。 原因が確定。,controlled_synthetic
+H-0400,dense,hard,other.other,template_3,other,other,confirmed,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が確定。,controlled_synthetic
+H-0398,timeline,hard,other.other,template_1,other,other,confirmed,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が確定。,controlled_synthetic
+H-0403,correction,hard,other.other,template_2,other,other,suspected,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因が推定。,controlled_synthetic
+H-0401,cross_asset,hard,other.other,template_0,other,other,suspected,対象機と別設備の未確認・否定された事象を分ける。 原因が推定。,controlled_synthetic
+H-0404,dense,hard,other.other,template_3,other,other,suspected,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因が推定。,controlled_synthetic
+H-0402,timeline,hard,other.other,template_1,other,other,suspected,訂正された旧情報よりも現在有効な点検記録を採用する。 原因が推定。,controlled_synthetic
+H-0407,correction,hard,other.other,template_2,other,other,unknown,写真の設備番号訂正と、故障そのものの確定を混同しない。 原因の根拠なし。,controlled_synthetic
+H-0405,cross_asset,hard,other.other,template_0,other,other,unknown,対象機と別設備の未確認・否定された事象を分ける。 原因の根拠なし。,controlled_synthetic
+H-0408,dense,hard,other.other,template_3,other,other,unknown,異なる設備・異なる時点のデータ混入を避けて根拠を読む。 原因の根拠なし。,controlled_synthetic
+H-0406,timeline,hard,other.other,template_1,other,other,unknown,訂正された旧情報よりも現在有効な点検記録を採用する。 原因の根拠なし。,controlled_synthetic
+H-0410,cross_asset,hard,transformer.normal,normal_1,transformer,normal,unknown,別設備の異常を対象に移さない。,controlled_synthetic
+H-0439,timeline,very_hard,authored.timeline,hand_authored,transformer,normal,unknown,現時点の正常を採用。,author_labelled_synthetic
+H-0412,cross_asset,hard,transformer.normal,normal_3,transformer,normal,unknown,今回点検した設備は異常なし、旧故障は参考添付。,controlled_synthetic
+H-0440,timeline,very_hard,authored.timeline,hand_authored,breaker,heat,confirmed,今回の発熱を採用、過去の動作不良は対象外。,author_labelled_synthetic
+H-0414,cross_asset,hard,breaker.normal,normal_1,breaker,normal,unknown,別設備の異常を対象に移さない。,controlled_synthetic
+H-0441,timeline,very_hard,authored.timeline,hand_authored,switch,communication,unknown,復旧済みの過去案件と本日の通信欠落を区別する。,author_labelled_synthetic
+H-0416,cross_asset,hard,breaker.normal,normal_3,breaker,normal,unknown,今回点検した設備は異常なし、旧故障は参考添付。,controlled_synthetic
+H-0442,timeline,very_hard,authored.timeline,hand_authored,meter,damage,unknown,現在は損傷のみ。,author_labelled_synthetic
+H-0418,cross_asset,hard,switch.normal,normal_1,switch,normal,unknown,別設備の異常を対象に移さない。,controlled_synthetic
+H-0443,timeline,very_hard,authored.timeline,hand_authored,overhead_line,normal,unknown,旧履歴ではなく現在の点検所見で分類。,author_labelled_synthetic
+H-0420,cross_asset,hard,switch.normal,normal_3,switch,normal,unknown,今回点検した設備は異常なし、旧故障は参考添付。,controlled_synthetic
+H-0444,timeline,very_hard,authored.timeline,hand_authored,other,communication,confirmed,対象はRTUでありequipment=other。現事象は通信障害。,author_labelled_synthetic
+H-0422,cross_asset,hard,overhead_line.normal,normal_1,overhead_line,normal,unknown,別設備の異常を対象に移さない。,controlled_synthetic
+H-0424,cross_asset,hard,overhead_line.normal,normal_3,overhead_line,normal,unknown,今回点検した設備は異常なし、旧故障は参考添付。,controlled_synthetic
+H-0426,cross_asset,hard,meter.normal,normal_1,meter,normal,unknown,別設備の異常を対象に移さない。,controlled_synthetic
+H-0428,cross_asset,hard,meter.normal,normal_3,meter,normal,unknown,今回点検した設備は異常なし、旧故障は参考添付。,controlled_synthetic
+H-0430,cross_asset,hard,other.normal,normal_1,other,normal,unknown,別設備の異常を対象に移さない。,controlled_synthetic
+H-0432,cross_asset,hard,other.normal,normal_3,other,normal,unknown,今回点検した設備は異常なし、旧故障は参考添付。,controlled_synthetic
+H-0445,cross_asset,very_hard,authored.cross_asset,hand_authored,transformer,oil_leak,unknown,他機器通信断を対象設備の異常に混入させない。,author_labelled_synthetic
+H-0446,cross_asset,very_hard,authored.cross_asset,hand_authored,breaker,corrosion,suspected,遮断器の腐食のみを選択し、別設備の動作不良を捨てる。,author_labelled_synthetic
+H-0447,cross_asset,very_hard,authored.cross_asset,hand_authored,switch,operation_failure,confirmed,対象設備の指示に従い、二つの事象を混同しない。,author_labelled_synthetic
+H-0448,cross_asset,very_hard,authored.cross_asset,hand_authored,overhead_line,heat,suspected,熱いのは架空線接続部、隣接開閉器の腐食は別事象。,author_labelled_synthetic
+H-0449,cross_asset,very_hard,authored.cross_asset,hand_authored,meter,other,unknown,液晶表示不良は分類上other、VCBは対象外。,author_labelled_synthetic
+H-0450,cross_asset,very_hard,authored.cross_asset,hand_authored,other,damage,confirmed,ケーブルはequipment=other。,author_labelled_synthetic

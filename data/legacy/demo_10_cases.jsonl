@@ -1,0 +1,10 @@
+{"id": "PS-009", "group": "clear", "text": "VCBが開放指令後も動作しなかった。調査で操作回路ヒューズの断線が原因と判明した。", "gold": {"equipment": "breaker", "observation": "operation_failure", "cause_status": "confirmed"}}
+{"id": "PS-001", "group": "hypothesis", "text": "配電用変圧器の外箱で局所的な温度上昇を確認。端子部の接触抵抗増大が疑われるが、原因は未確定。", "gold": {"equipment": "transformer", "observation": "heat", "cause_status": "suspected"}}
+{"id": "PS-002", "group": "negation", "text": "配電用変圧器の発熱は確認されなかったが、タンク底部に油漏れを確認した。原因未特定。", "gold": {"equipment": "transformer", "observation": "oil_leak", "cause_status": "unknown"}}
+{"id": "PS-018", "group": "mixed_status", "text": "電力量計の機器表示は正常だが、上位システムへの通信が失敗。周辺電波環境の影響が疑われる。", "gold": {"equipment": "meter", "observation": "communication", "cause_status": "suspected"}}
+{"id": "PS-031", "group": "clear", "text": "開閉器の筐体で著しい錆を確認。調査で水抜き孔閉塞による滞水が原因と確定。", "gold": {"equipment": "switch", "observation": "corrosion", "cause_status": "confirmed"}}
+{"id": "PS-014", "group": "negation", "text": "架空線の接続部温度は正常。ただし別箇所の電線表面に亀裂が見つかった。原因不明。", "gold": {"equipment": "overhead_line", "observation": "damage", "cause_status": "unknown"}}
+{"id": "PS-010", "group": "resolved", "text": "開閉器の前回指摘した腐食箇所は補修済み。今回の巡視では新たな異常を認めず。", "gold": {"equipment": "switch", "observation": "normal", "cause_status": "unknown"}}
+{"id": "PS-037", "group": "resolved", "text": "スマートメーターの通信異常は復旧済み。今回確認した異常は筐体のひび割れのみ。", "gold": {"equipment": "meter", "observation": "damage", "cause_status": "unknown"}}
+{"id": "PS-044", "group": "negation", "text": "開閉器で通信欠落の報告は誤検知だった。一方、接点に発熱があり、接触不良が原因と確認した。", "gold": {"equipment": "switch", "observation": "heat", "cause_status": "confirmed"}}
+{"id": "PS-012", "group": "out_of_scope", "text": "巡視報告に「設備Aで様子が変」とだけあり、対象設備も異常内容も特定できない。", "gold": {"equipment": "other", "observation": "other", "cause_status": "unknown"}}

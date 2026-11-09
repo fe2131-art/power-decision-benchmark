@@ -1,0 +1,48 @@
+{
+  "count": 474,
+  "synthetic": true,
+  "human_expert_reviewed": false,
+  "gold_policy": "target current observation; ignore other devices, retracted notices, historical resolved events; cause evidence only",
+  "difficulty": {
+    "hard": 432,
+    "very_hard": 42
+  },
+  "groups": {
+    "causal": 6,
+    "correction": 102,
+    "cross_asset": 120,
+    "dense": 102,
+    "mixed": 6,
+    "negation": 6,
+    "resolved": 12,
+    "retraction": 6,
+    "scope": 6,
+    "timeline": 108
+  },
+  "labels": {
+    "equipment": {
+      "breaker": 83,
+      "meter": 71,
+      "other": 83,
+      "overhead_line": 59,
+      "switch": 95,
+      "transformer": 83
+    },
+    "observation": {
+      "communication": 53,
+      "corrosion": 77,
+      "damage": 78,
+      "heat": 78,
+      "normal": 30,
+      "oil_leak": 27,
+      "operation_failure": 52,
+      "other": 79
+    },
+    "cause_status": {
+      "confirmed": 147,
+      "suspected": 147,
+      "unknown": 180
+    }
+  },
+  "sha256_dataset": "f31252188c988e9abef317ed9b42727bb2f2d6148e86ad63f7c2cdf0410302c6"
+}
